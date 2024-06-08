@@ -56,18 +56,18 @@ function FixSocialIcon() {
     <SocialContainer>
       <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
         <ul>
-          <li className="item">
+          {/* <li className="item">
             <a
-              href="https://www.linkedin.com/in/pedro-sales-muniz"
+              href="https://www.linkedin.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin />
             </a>
-          </li>
+          </li> */}
           <li className="item">
             <a
-              href="https://github.com/salesp07"
+              href="https://github.com/gamerlord295"
               target="_blank"
               rel="noopener noreferrer"
             >
