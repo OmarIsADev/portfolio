@@ -83,16 +83,6 @@ function Dropdown({ isOpen, toggle }) {
           Contact
         </NavLink>
       </NavMenu>
-      <NavBtn onClick={toggle}>
-        <a
-          className="btn PrimaryBtn"
-          href="https://linkedin.com/in/pedro-sales-muniz"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Resume
-        </a>
-      </NavBtn>
     </SiderBar>
   );
 }
