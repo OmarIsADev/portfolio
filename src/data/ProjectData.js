@@ -5,7 +5,7 @@ export const ProjectList = [
     title: "Formuia",
     description:
       "A gamified social media website like Facebook and Reddit.",
-    tech_stack: [ "NextJS", "Firebase", "TailwindCSS"],
+    tech_stack: [ "NextJS", "NextUI", "Firebase", "TailwindCSS"],
     github_url: "",
     demo_url: "https://formuia.vercel.app/",
   },
@@ -13,7 +13,7 @@ export const ProjectList = [
     img: "/pro_todo.png",
     title: "Todo App",
     description: "A simple todo app with ReactJS.",
-    tech_stack: [ "ReactJS", "TypeScript"],
+    tech_stack: [ "ReactJS", "TypeScript", "Vite"],
     github_url: "https://github.com/gamerlord295/todo-app",
     demo_url: "https://todo-app-zeta-ashen.vercel.app/",
   },
@@ -21,10 +21,21 @@ export const ProjectList = [
     img: "/pro_whatsapp.png",
     title: "Whatsapp clone",
     description: "A simple whatsapp landing page clone.",
-    tech_stack: [ "ReactJS" ],
+    tech_stack: [ "ReactJS", "Vite" ],
     github_url: "https://github.com/gamerlord295/whatsapp",
     demo_url: "https://whatsapp-rose-seven.vercel.app/",
-  }
+  },
+  {
+    img
+  },
+  {
+    img: "/pro_color-gen.png",
+    title: "Color Generator",
+    description: "A simple color generator with ReactJS.",
+    tech_stack: [ "ReactJS", "TypeScript", "Vite" ],
+    github_url: "https://github.com/gamerlord295/random-color-gen",
+    demo_url: "random-color-gen-gamma.vercel.app",
+  },
 ];
 
 // --------------------------------------- Skills
@@ -75,7 +86,7 @@ export const stackList = [
     name: "Java",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
     name: "TailwindCSS",
   },
   {
