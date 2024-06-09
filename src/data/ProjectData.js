@@ -26,9 +26,6 @@ export const ProjectList = [
     demo_url: "https://whatsapp-rose-seven.vercel.app/",
   },
   {
-    img
-  },
-  {
     img: "/pro_color-gen.png",
     title: "Color Generator",
     description: "A simple color generator with ReactJS.",
