@@ -31,7 +31,7 @@ export const ProjectList = [
     description: "A simple color generator with ReactJS.",
     tech_stack: [ "ReactJS", "TypeScript", "Vite" ],
     github_url: "https://github.com/gamerlord295/random-color-gen",
-    demo_url: "random-color-gen-gamma.vercel.app",
+    demo_url: "https://random-color-gen-gamma.vercel.app",
   },
 ];
 
