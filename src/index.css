@@ -164,6 +164,11 @@ video {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 16px;
+  justify-content: center;
+}
+
+.btnGroup a {
+  margin: 0;
 }
 
 
