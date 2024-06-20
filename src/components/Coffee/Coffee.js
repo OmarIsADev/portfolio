@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { ContactWrapper, Email } from "./ContactElements";
+import { ContactWrapper, Email } from "./CoffeeElements";
 import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
 import Zoom from '@mui/material/Zoom';
 
 import ScrollAnimation from "react-animate-on-scroll";
-function Contact() {
+function Coffee() {
   const [showTooltip, setShowTooltip] = useState(false);
   const copyToClipboard = () => {
     navigator.clipboard.writeText("omarisadev@gmail.com");
@@ -43,24 +43,14 @@ function Contact() {
                   </IconButton>
                 </Tooltip>
               </div>
-              <div className="btnGroup">
-
               <a
                 className="btn PrimaryBtn btn-shadow"
                 href="mailto:omarisadev@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                >
-                Send Email
-              </a>
-              <a
-                className="btn btn-shadow SecondaryBtn"
-                href="https://buymeacoffee.com/omar.saad"
-                target="_blank"
               >
-                Buy me a coffee
+                Buy
               </a>
-                </div>
             </Email>
           </div>
         </ScrollAnimation>
@@ -70,4 +60,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Coffee;

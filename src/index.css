@@ -159,6 +159,13 @@ video {
   margin-top: -1rem;
 }
 
+.btnGroup {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
 
 
 /* ------------------------------------ Media for Container */
