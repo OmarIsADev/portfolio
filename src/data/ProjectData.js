@@ -10,7 +10,7 @@ export const ProjectList = [
     demo_url: "https://formuia.vercel.app/",
   },
   {
-    img: "/pro-axylsite.png,
+    img: "/pro-axylsite.png",
     title: "Axyl OS",
     description: "A landing page for Arch based distro",
     tech_stack: [ "Vite", "Reactjs", "TailwindCSS"],
