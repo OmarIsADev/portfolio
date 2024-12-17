@@ -16,7 +16,6 @@ function Home() {
       <About />
       <Contact />
       <FixSocialIcon />
-      {/* <Coffee /> */}
       <Footer />
       <ScrollToTop />
     </>
