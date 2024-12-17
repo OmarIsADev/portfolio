@@ -14,8 +14,8 @@ export const ProjectList = [
     title: "Axyl OS",
     description: "A landing page for Arch based distro",
     tech_stack: [ "Vite", "Reactjs", "TailwindCSS"],
-    github_url: "",
-    demo_url: "https://axyl-sites.github.io/landing-axyl.org/",
+    github_url: "https://github.com/OmarIsADev/Axyl-landing",
+    demo_url: "https://axyl-landing.vercel.app",
   },
   {
     img: "/pro_todo.png",
